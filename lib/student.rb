@@ -3,8 +3,14 @@ require_relative 'user'
 class Student < User
   
   
-  def new 
+  def initialize 
     @knowledge = []  
+  end
+
+  def learn 
+  end
+
+  def knowledge
   end
 
 end
